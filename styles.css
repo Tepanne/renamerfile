@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Latar belakang putih */
+    color: #000000; /* Teks hitam */
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  select,
+  input[type="file"] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .file-list {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .file-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  
+  .file-item span {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .file-item input {
+    flex: 2;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .file-item button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .file-item .download {
+    background-color: #28a745; /* Hijau untuk sukses */
+  }
+  
+  .file-item .error {
+    background-color: #dc3545; /* Merah untuk error */
+  }
+  
+  .error-message {
+    color: #dc3545;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  
